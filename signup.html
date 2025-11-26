@@ -44,12 +44,14 @@ body {
 /* Signup box */
 .signup-box {
   background-color: rgba(0,0,0,0.6);
+  justify-content: space-evenly;
   padding: 2rem; /* p-8 */
   margin-left: 30rem; /* ml-120 */
-  margin: 0.5rem; /* m-2 */
+
   border-radius: 0.5rem; /* rounded-lg */
   box-shadow: 0 10px 15px rgba(0,0,0,0.3); /* shadow-lg */
-  width: 48.5rem; /* w-194 */
+  width:430 px;
+  height: 594px;
   max-width: 100%;
   color: white;
 }
@@ -93,10 +95,10 @@ body {
   color: #D1D5DB; /* placeholder-gray-300 */
 }
 
-/* Focus input */
 .form-group input:focus {
-  ring: 2px solid white;
+    outline: 2px solid white; /* standard CSS */
 }
+
 
 /* Checkbox */
 .checkbox-group {
@@ -146,7 +148,7 @@ body {
   <div id="root"></div>
 
   <div class="container">
-    <img src="/src/assets/Flashproduct.png" alt="image" class="product-image" />
+    <img src="/src/assets/Capture.png" alt="image" class="product-image" />
     <div class="signup-box">
       <h2>Sign Up</h2>
       <form action="#" method="POST" class="signup-form">
